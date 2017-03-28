@@ -1,0 +1,39 @@
+#kalendarz {
+    border: 1px solid black;
+    padding: 10px;
+    margin: auto;
+}
+
+._10min {
+    /* Po prostu termin :V */
+    background-color: white;
+}
+
+._10min:hover {
+    /* Po prostu termin :V */
+    background-color: lightgray;
+}
+
+._10minw {
+    /* Termin wylaczony z korzystania :| */
+    background-color: lightgreen;
+}
+
+._10minz {
+    /* Termin zajety ;(( */
+    background-color: #ee9090;
+}
+
+td {
+    width: 150px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.termin {
+    width: 45px;
+}
+
+.responsywny {
+    overflow-x: auto;
+}

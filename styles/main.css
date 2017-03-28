@@ -1,0 +1,61 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    background-color: #e6e6e6;
+}
+
+#kontener {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#glowa {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+    background-color: #d9d9d9;
+}
+
+.esyf {
+    float: right;
+}
+
+#zawartosc {
+    clear: both;
+    padding: 5px;
+    text-align: center;
+}
+
+.menu-link:link {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+.menu-link:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+}
+
+.godzina {
+    font-size: 30px;
+}
+
+.data {
+    font-size: 20px;
+}
+
+.czas {
+    margin: 5px;
+}
+
+form {
+    margin: 10px;
+}
